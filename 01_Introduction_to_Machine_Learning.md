@@ -165,12 +165,12 @@ After training, we move to **evaluation**, which is one of the most critical ste
 
 If performance is not satisfactory, we enter the **improvement phase**. Improvement may involve selecting a different model, tuning **hyperparameters**, engineering better **features**, or collecting more relevant data. Machine learning is inherently **iterative**. The first model is rarely the best model.
 
-> **So the complete pipeline can be summarized as:**
-> Define problem.
-> Prepare data.
-> Choose model.
-> Train model.
-> Evaluate performance.
+> **So the complete pipeline can be summarized as:**  
+> Define problem.  
+> Prepare data.  
+> Choose model.  
+> Train model.  
+> Evaluate performance.  
 > Improve and repeat.
 
 This cycle continues until the model reaches acceptable performance for **deployment** in real-world applications.
