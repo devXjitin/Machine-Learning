@@ -11,8 +11,6 @@
 - ML pipeline overview (problem → model → evaluation → improvement)
 - Where ML fits in AI, Data Science, and Software Engineering
 
----
-
 ## 2. Types of Learning: Supervised, Unsupervised, Semi-Supervised
 
 - Supervised learning concept with labeled data
@@ -22,8 +20,6 @@
 - Semi-supervised learning motivation in real-world data scarcity
 - Mapping problem statements to learning types
 
----
-
 ## 3. Regression Fundamentals
 
 - What regression means mathematically and practically
@@ -31,8 +27,6 @@
 - Line fitting as an optimization problem
 - Error as distance between prediction and truth
 - Use cases: price prediction, demand forecasting, risk estimation
-
----
 
 ## 4. Simple Linear Regression
 
@@ -47,8 +41,6 @@ $y = wx + b$
 - Implementing linear regression using `sklearn`
 - Understanding coefficients after training
 
----
-
 ## 5. Multiple Linear Regression
 
 - Extending regression to multiple features
@@ -61,8 +53,6 @@ $y = w_1x_1 + w_2x_2 + ... + b$
 - Practical implementation using `sklearn`
 - Reading model summary and coefficients
 
----
-
 ## 6. Cost Function and Optimization
 
 - Why models need a cost (loss) function
@@ -70,8 +60,6 @@ $y = w_1x_1 + w_2x_2 + ... + b$
 - Convex vs non-convex loss landscapes
 - Global minimum vs local minimum
 - Relationship between loss minimization and learning
-
----
 
 ## 7. Gradient Descent
 
@@ -84,8 +72,6 @@ $y = w_1x_1 + w_2x_2 + ... + b$
 - Visual explanation of parameter updates
 - Implementing gradient descent from scratch (basic code logic)
 
----
-
 ## 8. Polynomial Regression
 
 - Why linear models fail on curved data
@@ -94,8 +80,6 @@ $y = w_1x_1 + w_2x_2 + ... + b$
 - Overfitting risk with higher-degree polynomials
 - Choosing degree using validation
 - Implementation using `PolynomialFeatures`
-
----
 
 ## 9. Overfitting and Underfitting
 
@@ -106,8 +90,6 @@ $y = w_1x_1 + w_2x_2 + ... + b$
 - Detecting overfitting without touching data preprocessing
 - Practical signals from metrics and plots
 
----
-
 ## 10. Model Evaluation (Regression)
 
 - Why accuracy is not suitable for regression
@@ -117,8 +99,6 @@ $y = w_1x_1 + w_2x_2 + ... + b$
 - R² score intuition
 - Choosing metrics based on business context
 - Evaluating models using `sklearn`
-
----
 
 ## 11. Regularization (L1 and L2)
 
@@ -131,8 +111,6 @@ $Loss + \lambda \sum w^2 \quad (L2)$
 - Choosing regularization strength
 - Practical implementation with Ridge and Lasso
 
----
-
 ## 12. Bias–Variance Trade-off
 
 - Mathematical intuition behind bias and variance
@@ -141,8 +119,6 @@ $Loss + \lambda \sum w^2 \quad (L2)$
 - Regularization as bias–variance control
 - Diagnosing bias/variance from errors
 
----
-
 ## 13. Introduction to Classification
 
 - Classification as decision boundary learning
@@ -150,8 +126,6 @@ $Loss + \lambda \sum w^2 \quad (L2)$
 - Probability-based thinking
 - Linear vs non-linear decision boundaries
 - Binary vs multiclass classification
-
----
 
 ## 14. Logistic Regression (Binary Classification)
 
@@ -164,8 +138,6 @@ $\sigma(z) = \frac{1}{1 + e^{-z}}$
 - Gradient descent in logistic regression
 - Implementing logistic regression in `sklearn`
 
----
-
 ## 15. Classification Evaluation Metrics
 
 - Confusion Matrix and its components
@@ -175,8 +147,6 @@ $\sigma(z) = \frac{1}{1 + e^{-z}}$
 - Business-driven metric selection
 - Metric computation using `sklearn`
 
----
-
 ## 16. Multiclass Logistic Regression
 
 - One-vs-Rest strategy
@@ -184,8 +154,6 @@ $\sigma(z) = \frac{1}{1 + e^{-z}}$
 - Log loss for multiclass problems
 - Handling multiple classes mathematically
 - Implementation using `sklearn`
-
----
 
 ## 17. Naive Bayes
 
@@ -198,8 +166,6 @@ $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
 - Text classification use cases
 - Implementation using `sklearn`
 
----
-
 ## 18. Support Vector Machines (SVM)
 
 - Maximum margin intuition
@@ -209,8 +175,6 @@ $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
 - Hyperplane geometry explanation
 - Regularization parameter `C`
 - Practical usage and limitations
-
----
 
 ## 19. Decision Trees
 
@@ -222,16 +186,12 @@ $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
 - Interpreting tree structure
 - Implementation using `sklearn`
 
----
-
 ## 20. Ensemble Learning Fundamentals
 
 - Why single models fail
 - Wisdom of multiple models
 - Bias and variance reduction via ensembles
 - Voting vs averaging intuition
-
----
 
 ## 21. Bagging and Random Forest
 
@@ -242,8 +202,6 @@ $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
 - Feature importance interpretation
 - Practical Random Forest implementation
 
----
-
 ## 22. Boosting Techniques
 
 - Sequential error correction intuition
@@ -253,8 +211,6 @@ $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
 - Bias reduction through boosting
 - Practical considerations and tuning
 
----
-
 ## 23. Model Evaluation for Classification
 
 - ROC Curve intuition
@@ -262,8 +218,6 @@ $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
 - Threshold tuning
 - Cost-sensitive decision making
 - Using ROC in `sklearn`
-
----
 
 ## 24. Cross Validation Techniques
 
@@ -273,8 +227,6 @@ $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
 - Bias-variance impact of CV
 - Practical implementation
 
----
-
 ## 25. Hyperparameter Tuning
 
 - Parameters vs hyperparameters
@@ -282,8 +234,6 @@ $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
 - Cross-validation integration
 - Overfitting risks during tuning
 - Practical tuning workflow
-
----
 
 ## 26. K-Means Clustering
 
@@ -295,8 +245,6 @@ $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
 - Limitations of K-Means
 - Practical implementation
 
----
-
 ## 27. Variance Inflation Factor (VIF)
 
 - Multicollinearity detection intuition
@@ -304,8 +252,6 @@ $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
 - Impact on regression coefficients
 - When to worry about VIF
 - Practical interpretation
-
----
 
 ## 28. End-to-End ML Thinking
 
@@ -315,5 +261,3 @@ $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
 - Error analysis mindset
 - Iterative improvement philosophy
 - Real-world ML pitfalls and best practices
-
----
