@@ -221,6 +221,7 @@ Software engineering ensures models are **deployed**, **scalable**, **reliable**
 
 So you can visualize the relationship like this:
 
+> [!NOTE]
 > **AI is the vision.**  
 > **Machine Learning is the mathematical engine.**  
 > **Data Science is the analytical foundation.**  
