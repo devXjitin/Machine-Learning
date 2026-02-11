@@ -37,6 +37,7 @@ If the problem involves prediction, pattern recognition, or data-driven decision
 
 In **traditional programming**, the workflow is straightforward. We provide **input data** and write explicit **rules**. The computer applies those rules to the input and produces the **output**. Everything depends on the logic written by the programmer.
 
+> [!NOTE]
 > The structure is:  
 > **Input + Rules → Output**
 
@@ -44,13 +45,19 @@ For example, consider tax calculation. We define exact formulas. If income falls
 
 Now look at **Machine Learning**. The workflow is fundamentally different. Instead of writing rules, we provide **input data** along with the **correct output examples**. The system uses mathematics and optimization techniques to discover the hidden rules on its own. These discovered rules are stored inside a **model**.
 
+> [!NOTE]
 > The learning structure becomes:  
 > **Input + Output → Model (learned rules)**
 
-> After training, the workflow changes to:  
-> **New Input → Model → Predicted Output**
+> [!NOTE]
+> After training, the workflow changes to:
+> ```mermaid
+> graph TD
+>     A[Start] --> B[Model]
+>     B -->C[Predicted Output]
+> ```
 
-This shift is extremely important.
+his shift is extremely important.
 
 In traditional programming, **humans create logic**.  
 
