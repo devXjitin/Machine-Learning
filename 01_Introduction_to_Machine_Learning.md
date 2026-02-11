@@ -30,3 +30,38 @@ At its core, machine learning answers one powerful question:
 Given past data, can we **predict or make decisions** about new or future data?
 
 If the problem involves prediction, pattern recognition, or data-driven decision making, then machine learning is the right tool.
+
+# Traditional Programming vs Machine Learning Workflow
+
+![Traditional programming vs machine learning flow](./images/Traditional-programming-vs-machine-learning-flow.png)
+
+In **traditional programming**, the workflow is straightforward. We provide **input data** and write explicit **rules**. The computer applies those rules to the input and produces the **output**. Everything depends on the logic written by the programmer.
+
+> The structure is:  
+> **Input + Rules → Output**
+
+For example, consider tax calculation. We define exact formulas. If income falls in a certain range, apply a specific percentage. If tax laws change, we update the rules manually. The intelligence lies in the **human-written logic**, not in the data.
+
+Now look at **Machine Learning**. The workflow is fundamentally different. Instead of writing rules, we provide **input data** along with the **correct output examples**. The system uses mathematics and optimization techniques to discover the hidden rules on its own. These discovered rules are stored inside a **model**.
+
+> The learning structure becomes:  
+> **Input + Output → Model (learned rules)**
+
+> After training, the workflow changes to:  
+> **New Input → Model → Predicted Output**
+
+This shift is extremely important.
+
+In traditional programming, **humans create logic**.  
+
+In machine learning, **data creates logic**.
+
+Another major difference is handling **complexity**. When the relationship between input and output is simple and clearly defined, traditional programming works perfectly. But when relationships become highly complex, such as **face recognition**, **speech recognition**, or **risk prediction**, writing explicit rules becomes nearly impossible. Machine learning handles such problems using **mathematical optimization** and pattern discovery.
+
+Responsibility also shifts. In traditional programming, if the output is wrong, the developer debugs and fixes the logic. In machine learning, if predictions are wrong, we improve the **training data**, select a better **model**, engineer better **features**, or tune **hyperparameters**. We do not manually rewrite rules.
+
+Machine learning is most powerful when patterns are too complicated to express as clear step-by-step instructions.
+
+> So remember this clearly:  
+> Traditional programming is **rule-driven**.  
+> Machine learning is **data-driven**.
