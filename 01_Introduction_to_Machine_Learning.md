@@ -133,8 +133,11 @@ There is another important scenario where we do not have labeled outputs at all.
 For example, grouping customers based on buying behavior. There is no predefined “correct answer.” The model identifies patterns of similarity and forms groups automatically. The output is a **cluster assignment**, not a known category or numeric value.
 
 > **So based on output nature, machine learning problems can be understood as:**
+> 
 > If output is continuous → **Regression**
+> 
 > If output is categorical → **Classification**
+> 
 > If output is hidden structure without labels → **Clustering**
 
 This distinction is extremely important because it determines which **algorithms**, **loss functions**, and **evaluation metrics** we should use.
