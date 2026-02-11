@@ -50,14 +50,10 @@ Now look at **Machine Learning**. The workflow is fundamentally different. Inste
 > **Input + Output → Model (learned rules)**
 
 > [!NOTE]
-> After training, the workflow changes to:
-> ```mermaid
-> graph TD
->     A[Start] --> B[Model]
->     B -->C[Predicted Output]
-> ```
+> After training, the workflow changes to:  
+> **New Input → Model → Predicted Output**
 
-his shift is extremely important.
+This shift is extremely important.
 
 In traditional programming, **humans create logic**.  
 
@@ -69,8 +65,8 @@ Responsibility also shifts. In traditional programming, if the output is wrong, 
 
 Machine learning is most powerful when patterns are too complicated to express as clear step-by-step instructions.
 
-> So remember this clearly:  
-> Traditional programming is **rule-driven**.  
+> [!IMPORTANT]
+> Traditional programming is **rule-driven**.
 > Machine learning is **data-driven**.
 
 # Real-World Examples: Spam Detection, Recommendation Systems, Fraud Detection
@@ -139,9 +135,10 @@ There is another important scenario where we do not have labeled outputs at all.
 
 For example, grouping customers based on buying behavior. There is no predefined “correct answer.” The model identifies patterns of similarity and forms groups automatically. The output is a **cluster assignment**, not a known category or numeric value.
 
-> **So based on output nature, machine learning problems can be understood as:**  
-> If output is continuous → **Regression.**  
-> If output is categorical → **Classification.**  
+> [!IMPORTANT]
+> **So based on output nature, machine learning problems can be understood as:**
+> If output is continuous → **Regression.**
+> If output is categorical → **Classification.**
 > If output is hidden structure without labels → **Clustering.**
 
 This distinction is extremely important because it determines which **algorithms**, **loss functions**, and **evaluation metrics** we should use.
