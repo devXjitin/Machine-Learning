@@ -180,3 +180,52 @@ One important mindset shift is this:
 Machine learning is not about finding a perfect model once. It is about **continuous improvement using feedback and evaluation**.
 
 That is how practical, production-level ML systems are built.
+
+# Where Machine Learning Fits in AI, Data Science, and Software Engineering
+
+![Where machine learning fits in AI and data science](./images/Where-machine-learning-fits-in-AI-and-data-science.png)
+
+Many people use the terms **Artificial Intelligence**, **Machine Learning**, and **Data Science** as if they mean the same thing. They are related, but they are not identical. Each has a different scope and purpose.
+
+Let us start from the broadest level.
+
+**Artificial Intelligence (AI)** is the overall concept of making machines behave intelligently. Intelligence here includes abilities such as **reasoning**, **planning**, **learning**, **perception**, **language understanding**, and **decision-making**. AI is the big vision of creating systems that can perform tasks which normally require human intelligence.
+
+**Machine Learning (ML)** is a subset of AI. It is one practical approach to achieving intelligence. Instead of manually programming rules for every situation, machines learn patterns directly from data.
+
+You can think of it like this:
+
+**AI is the goal.**  
+**Machine Learning is one method to achieve that goal.**
+
+Not all AI systems use machine learning. Earlier **rule-based expert systems** were considered AI but did not learn from data. However, modern AI systems rely heavily on machine learning because learning from data is more scalable and adaptable than writing fixed rules.
+
+Now consider **Data Science**.
+
+Data Science is broader than machine learning, but in a different direction. It focuses on extracting **insights**, **patterns**, and **business understanding** from data. It includes **statistics**, **data analysis**, **data visualization**, and domain knowledge. Machine learning is one powerful tool inside Data Science, but it is not always required.
+
+Many data science tasks involve exploring data, generating reports, or finding trends. These tasks may use statistical methods without building predictive models. But when the goal is **prediction**, **automation**, or intelligent decision-making, machine learning becomes essential.
+
+In simple terms:
+
+**Data Science is about understanding data.**  
+**Machine Learning is about building predictive models from data.**
+
+Now let us see where **Software Engineering** fits.
+
+A machine learning model does not create value by itself. After training, it must be integrated into real-world systems. This requires software engineering.
+
+For example, a fraud detection model must connect to banking infrastructure. A recommendation system must integrate with a website backend. An AI chatbot must run inside a mobile or web application.
+
+Software engineering ensures models are **deployed**, **scalable**, **reliable**, and **maintainable**. It handles APIs, databases, servers, monitoring, version control, and security. Without software engineering, a trained model remains only a notebook experiment.
+
+So you can visualize the relationship like this:
+
+> **AI is the vision.**  
+> **Machine Learning is the mathematical engine.**  
+> **Data Science is the analytical foundation.**  
+> **Software Engineering makes everything usable in the real world.**
+
+In industry, these roles often overlap. A data scientist may build models. An ML engineer may optimize and deploy them. A software engineer may integrate them into applications. An AI researcher may design new algorithms.
+
+Understanding this ecosystem helps you clearly see where each field fits and how they work together to build real-world intelligent systems.
