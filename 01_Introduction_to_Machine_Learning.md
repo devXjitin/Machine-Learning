@@ -65,8 +65,8 @@ Responsibility also shifts. In traditional programming, if the output is wrong, 
 
 Machine learning is most powerful when patterns are too complicated to express as clear step-by-step instructions.
 
-> [!IMPORTANT]
-> Traditional programming is **rule-driven**.
+> [!NOTE]
+> Traditional programming is **rule-driven**.  
 > Machine learning is **data-driven**.
 
 # Real-World Examples: Spam Detection, Recommendation Systems, Fraud Detection
@@ -135,10 +135,10 @@ There is another important scenario where we do not have labeled outputs at all.
 
 For example, grouping customers based on buying behavior. There is no predefined “correct answer.” The model identifies patterns of similarity and forms groups automatically. The output is a **cluster assignment**, not a known category or numeric value.
 
-> [!IMPORTANT]
-> **So based on output nature, machine learning problems can be understood as:**
-> If output is continuous → **Regression.**
-> If output is categorical → **Classification.**
+> [!NOTE]
+> **So based on output nature, machine learning problems can be understood as:**  
+> If output is continuous → **Regression.**  
+> If output is categorical → **Classification.**  
 > If output is hidden structure without labels → **Clustering.**
 
 This distinction is extremely important because it determines which **algorithms**, **loss functions**, and **evaluation metrics** we should use.
@@ -168,7 +168,7 @@ The model learns through optimization. It does not learn automatically. It minim
 After training, we move to **evaluation**, which is one of the most critical steps. The model must be tested on **unseen data** to check whether it generalizes well. If it performs very well on training data but poorly on new data, the model is suffering from **overfitting**. Proper evaluation ensures the model is useful in real-world scenarios.
 
 If performance is not satisfactory, we enter the **improvement phase**. Improvement may involve selecting a different model, tuning **hyperparameters**, engineering better **features**, or collecting more relevant data. Machine learning is inherently **iterative**. The first model is rarely the best model.
-
+> [!NOTE]
 > **So the complete pipeline can be summarized as:**  
 > Define problem.  
 > Prepare data.  
