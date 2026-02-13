@@ -114,33 +114,33 @@
 
 ## **Types of ML Problems Based on Output Nature**
 
-- **Regression Problems** predict **continuous numerical values** as output.
+- **Regression Problems** predict **continuous numerical values** as output.  
 	(*The result can be any number within a range, such as house price, temperature, or sales revenue.*)
-- In regression, the **output variable is quantitative**. 
+- In regression, the **output variable is quantitative**.  
 (*The prediction is a measurable number, not a category.*)
-- The objective in regression is to **minimize the difference between predicted and actual values**. 
+- The objective in regression is to **minimize the difference between predicted and actual values**.   
 (*We try to make the predicted number as close as possible to the real value.*)
-- **Classification Problems** predict **discrete categorical labels** as output. 
+- **Classification Problems** predict **discrete categorical labels** as output.   
 (*The result belongs to fixed groups such as spam/not spam or fraud/not fraud.*)
-- **Binary Classification** involves exactly two classes. 
+- **Binary Classification** involves exactly two classes.   
 (*Examples include yes/no, 0/1, true/false.*)
-- **Multiclass Classification** involves more than two categories. 
+- **Multiclass Classification** involves more than two categories.   
 (*For example, classifying an image as cat, dog, or bird.*)
-- Many classification models produce **probability scores** before assigning a final label. 
+- Many classification models produce **probability scores** before assigning a final label.   
 (*The model calculates confidence for each class and selects the highest probability.*)
-- **Multi-Label Classification** allows a single instance to belong to multiple classes simultaneously. 
+- **Multi-Label Classification** allows a single instance to belong to multiple classes simultaneously.   
 (*For example, a movie can be both action and comedy.*)
-- **Clustering Problems** group similar data points without predefined labels. 
+- **Clustering Problems** group similar data points without predefined labels.   
 (*The system discovers natural groupings without knowing correct answers beforehand.*)
-- The output of clustering is a **cluster assignment** for each data point. 
+- The output of clustering is a **cluster assignment** for each data point.   
 (*Each example is placed into a group based on similarity.*)
-- **Ranking Problems** generate an **ordered list of items** instead of a single prediction. 
+- **Ranking Problems** generate an **ordered list of items** instead of a single prediction.   
 (*For example, ranking search engine results from most relevant to least relevant.*)
-- **Anomaly Detection** identifies rare or unusual patterns in data. 
+- **Anomaly Detection** identifies rare or unusual patterns in data.   
 (*The system flags observations that look abnormal or suspicious.*)
-- **Time Series Forecasting** predicts future values based on historical sequential data. 
+- **Time Series Forecasting** predicts future values based on historical sequential data.   
 (*For example, forecasting next month’s sales using past trends.*)
-- The **nature of the output** determines the appropriate algorithm and evaluation metrics. 
+- The **nature of the output** determines the appropriate algorithm and evaluation metrics.   
 (*Numeric outputs require regression methods, while categorical outputs require classification methods.*)
-- Clearly defining the **output type** is the first and most critical step in solving any machine learning problem. 
+- Clearly defining the **output type** is the first and most critical step in solving any machine learning problem.   
 (*Before selecting a model, we must know exactly what we want to predict.*)
