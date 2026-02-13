@@ -85,27 +85,62 @@
 (*The model learns from labeled emails and detects patterns such as suspicious words, unknown senders, or unusual links.*)
 - In spam detection, the model produces a **probability score** for each email.  
 (*It calculates how likely an email is spam and compares it with a threshold to make the final decision.*)
-- Important **features in spam detection** include word frequency, sender metadata, subject patterns, and embedded links.   
+- Important **features in spam detection** include word frequency, sender metadata, subject patterns, and embedded links.  
 (*The email text is converted into numbers so mathematical calculations can be performed.*)
-- **Recommendation Systems** suggest products, movies, or content based on user behavior and preferences.   
+- **Recommendation Systems** suggest products, movies, or content based on user behavior and preferences.  
 (*If you frequently watch action movies, the system recommends similar content.*)
-- Recommendation systems operate by measuring **similarity between users or items**.   
+- Recommendation systems operate by measuring **similarity between users or items**.  
 (*If two users show similar behavior, items liked by one may be recommended to the other.*)
-- **Collaborative Filtering** is a widely used recommendation technique.   
+- **Collaborative Filtering** is a widely used recommendation technique.  
 (*It assumes users with similar past behavior will share similar future interests.*)
-- **Content-Based Filtering** recommends items based on their features and user preferences.   
+- **Content-Based Filtering** recommends items based on their features and user preferences.  
 (*If you liked a specific product type, the system suggests similar products.*)
-- **Fraud Detection** is a classification problem where transactions are labeled as fraudulent or legitimate.   
+- **Fraud Detection** is a classification problem where transactions are labeled as fraudulent or legitimate.  
 (*The model learns suspicious patterns from past fraud cases.*)
 - Fraud detection systems analyze multiple **transaction features** such as amount, location, device information, and transaction frequency.  
 (*Unusual behavior, like sudden high spending from a new location, may raise an alert.*)
-- Fraud detection models are designed for **real-time prediction**.   
+- Fraud detection models are designed for **real-time prediction**.  
 (*They must make instant decisions before approving or blocking a transaction.*)
-- Fraud detection typically involves **imbalanced datasets**, where fraudulent cases are rare compared to normal transactions.   
+- Fraud detection typically involves **imbalanced datasets**, where fraudulent cases are rare compared to normal transactions.  
 (*Because fraud examples are few, the model must handle data imbalance carefully.*)
-- All these applications rely on **pattern recognition from historical data**.   
+- All these applications rely on **pattern recognition from historical data**.  
 (*The system studies past examples to make accurate predictions for new cases.*)
-- Machine learning systems improve continuously through **model retraining with new data**.   
+- Machine learning systems improve continuously through **model retraining with new data**.  
 (*As more emails, transactions, or user interactions are observed, prediction quality improves.*)
-- These examples demonstrate that machine learning enables **automation, personalization, anomaly detection, and risk management** in large-scale systems.   
+- These examples demonstrate that machine learning enables **automation, personalization, anomaly detection, and risk management** in large-scale systems.  
 (*It helps organizations make faster and smarter decisions automatically.*)
+
+---
+
+## **Types of ML Problems Based on Output Nature**
+
+- **Regression Problems** predict **continuous numerical values** as output.
+	(*The result can be any number within a range, such as house price, temperature, or sales revenue.*)
+- In regression, the **output variable is quantitative**. 
+(*The prediction is a measurable number, not a category.*)
+- The objective in regression is to **minimize the difference between predicted and actual values**. 
+(*We try to make the predicted number as close as possible to the real value.*)
+- **Classification Problems** predict **discrete categorical labels** as output. 
+(*The result belongs to fixed groups such as spam/not spam or fraud/not fraud.*)
+- **Binary Classification** involves exactly two classes. 
+(*Examples include yes/no, 0/1, true/false.*)
+- **Multiclass Classification** involves more than two categories. 
+(*For example, classifying an image as cat, dog, or bird.*)
+- Many classification models produce **probability scores** before assigning a final label. 
+(*The model calculates confidence for each class and selects the highest probability.*)
+- **Multi-Label Classification** allows a single instance to belong to multiple classes simultaneously. 
+(*For example, a movie can be both action and comedy.*)
+- **Clustering Problems** group similar data points without predefined labels. 
+(*The system discovers natural groupings without knowing correct answers beforehand.*)
+- The output of clustering is a **cluster assignment** for each data point. 
+(*Each example is placed into a group based on similarity.*)
+- **Ranking Problems** generate an **ordered list of items** instead of a single prediction. 
+(*For example, ranking search engine results from most relevant to least relevant.*)
+- **Anomaly Detection** identifies rare or unusual patterns in data. 
+(*The system flags observations that look abnormal or suspicious.*)
+- **Time Series Forecasting** predicts future values based on historical sequential data. 
+(*For example, forecasting next month’s sales using past trends.*)
+- The **nature of the output** determines the appropriate algorithm and evaluation metrics. 
+(*Numeric outputs require regression methods, while categorical outputs require classification methods.*)
+- Clearly defining the **output type** is the first and most critical step in solving any machine learning problem. 
+(*Before selecting a model, we must know exactly what we want to predict.*)
