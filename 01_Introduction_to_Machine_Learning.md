@@ -4,7 +4,7 @@
 > - Traditional programming vs machine learning workflow
 > - Real-world examples: spam detection, recommendation systems, fraud detection
 > - Types of ML problems based on output nature
-> - ML pipeline overview (problem → model → evaluation → improvement)
+> - ML pipeline overview
 > - Where ML fits in AI, Data Science, and Software Engineering
 
 ---
@@ -115,32 +115,77 @@
 ## **Types of ML Problems Based on Output Nature**
 
 - **Regression Problems** predict **continuous numerical values** as output.  
-	(*The result can be any number within a range, such as house price, temperature, or sales revenue.*)
+  (*The result can be any number within a range, such as house price, temperature, or sales revenue.*)
 - In regression, the **output variable is quantitative**.  
 (*The prediction is a measurable number, not a category.*)
-- The objective in regression is to **minimize the difference between predicted and actual values**.   
+- The objective in regression is to **minimize the difference between predicted and actual values**.  
 (*We try to make the predicted number as close as possible to the real value.*)
-- **Classification Problems** predict **discrete categorical labels** as output.   
+- **Classification Problems** predict **discrete categorical labels** as output.  
 (*The result belongs to fixed groups such as spam/not spam or fraud/not fraud.*)
-- **Binary Classification** involves exactly two classes.   
+- **Binary Classification** involves exactly two classes.  
 (*Examples include yes/no, 0/1, true/false.*)
-- **Multiclass Classification** involves more than two categories.   
+- **Multiclass Classification** involves more than two categories.  
 (*For example, classifying an image as cat, dog, or bird.*)
-- Many classification models produce **probability scores** before assigning a final label.   
+- Many classification models produce **probability scores** before assigning a final label.  
 (*The model calculates confidence for each class and selects the highest probability.*)
-- **Multi-Label Classification** allows a single instance to belong to multiple classes simultaneously.   
+- **Multi-Label Classification** allows a single instance to belong to multiple classes simultaneously.  
 (*For example, a movie can be both action and comedy.*)
-- **Clustering Problems** group similar data points without predefined labels.   
+- **Clustering Problems** group similar data points without predefined labels.  
 (*The system discovers natural groupings without knowing correct answers beforehand.*)
-- The output of clustering is a **cluster assignment** for each data point.   
+- The output of clustering is a **cluster assignment** for each data point.  
 (*Each example is placed into a group based on similarity.*)
-- **Ranking Problems** generate an **ordered list of items** instead of a single prediction.   
+- **Ranking Problems** generate an **ordered list of items** instead of a single prediction.  
 (*For example, ranking search engine results from most relevant to least relevant.*)
-- **Anomaly Detection** identifies rare or unusual patterns in data.   
+- **Anomaly Detection** identifies rare or unusual patterns in data.  
 (*The system flags observations that look abnormal or suspicious.*)
-- **Time Series Forecasting** predicts future values based on historical sequential data.   
+- **Time Series Forecasting** predicts future values based on historical sequential data.  
 (*For example, forecasting next month’s sales using past trends.*)
-- The **nature of the output** determines the appropriate algorithm and evaluation metrics.   
+- The **nature of the output** determines the appropriate algorithm and evaluation metrics.  
 (*Numeric outputs require regression methods, while categorical outputs require classification methods.*)
-- Clearly defining the **output type** is the first and most critical step in solving any machine learning problem.   
+- Clearly defining the **output type** is the first and most critical step in solving any machine learning problem.  
 (*Before selecting a model, we must know exactly what we want to predict.*)
+
+---
+
+## **ML Pipeline Overview**
+
+- The **Machine Learning Pipeline** is a structured sequence of steps used to build, evaluate, and deploy a model.  
+(*It acts as a roadmap from raw data to a working prediction system.*)
+- The first step is **Problem Definition**.  
+(*We clearly define what we want to predict and why it is important for business or real-world impact.*)
+- The **Output Type** must be defined early.  
+(*We decide whether the task is regression, classification, clustering, or another type.*)
+- The next step is **Data Collection**.  
+(*We gather relevant historical data that contains useful information for solving the problem.*)
+- **Data Preprocessing** prepares raw data for modeling.  
+(*Since real-world data is messy, we clean and organize it before using it.*)
+- **Handling Missing Values** is an essential preprocessing task.  
+(*We either fill missing data logically or remove incomplete records carefully.*)
+- **Encoding Categorical Variables** converts text-based categories into numerical format.  
+(*Algorithms work with numbers, so categories must be transformed into numeric form.*)
+- **Feature Scaling** ensures features are on comparable ranges when required.  
+(*We adjust values so large numbers do not dominate smaller ones.*)
+- **Outlier Detection and Treatment** improves model stability.  
+(*Extreme values can distort learning, so they must be handled properly.*)
+- **Feature Engineering** enhances predictive performance.  
+(*We create new meaningful features from existing data to help the model learn better patterns.*)
+- The dataset is split into **Training and Testing Sets**.  
+(*The model learns from one part and is evaluated on unseen data to check real performance.*)
+- **Model Selection** involves choosing an appropriate algorithm.  
+(*Different problems require different techniques, so careful selection is important.*)
+- **Model Training** adjusts internal parameters using training data.  
+(*The algorithm learns by minimizing prediction error.*)
+- **Model Evaluation** measures performance using appropriate metrics.  
+(*We assess how accurate, reliable, or efficient the predictions are.*)
+- **Hyperparameter Tuning** improves performance further.  
+(*We adjust external algorithm settings to optimize results.*)
+- **Cross-Validation** ensures robust and reliable evaluation.  
+(*We test multiple times using different data splits to confirm consistency.*)
+- **Model Deployment** integrates the trained model into real-world systems.  
+(*The model is made available for real-time or batch predictions.*)
+- **Monitoring** is necessary after deployment.  
+(*We continuously track performance because data patterns may change over time.*)
+- **Model Retraining** is performed when performance degrades.  
+(*If accuracy drops, we update the model using new data.*)
+- The machine learning pipeline is **iterative rather than strictly linear**.  
+(*We often revisit and refine earlier steps to achieve better results.*)
