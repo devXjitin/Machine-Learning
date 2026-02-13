@@ -1,4 +1,4 @@
-> [!NOTE]
+> [!IMPORTANT]
 > # Introduction to Machine Learning
 > - What machine learning really is (learning patterns from data, not rule-based systems)
 > - Traditional programming vs machine learning workflow
