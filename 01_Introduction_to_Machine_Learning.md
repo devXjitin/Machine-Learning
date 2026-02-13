@@ -115,7 +115,7 @@
 ## **Types of ML Problems Based on Output Nature**
 
 - **Regression Problems** predict **continuous numerical values** as output.  
-  (*The result can be any number within a range, such as house price, temperature, or sales revenue.*)
+(*The result can be any number within a range, such as house price, temperature, or sales revenue.*)
 - In regression, the **output variable is quantitative**.  
 (*The prediction is a measurable number, not a category.*)
 - The objective in regression is to **minimize the difference between predicted and actual values**.  
@@ -189,3 +189,36 @@
 (*If accuracy drops, we update the model using new data.*)
 - The machine learning pipeline is **iterative rather than strictly linear**.  
 (*We often revisit and refine earlier steps to achieve better results.*)
+
+---
+
+### **Where Machine Learning Fits in AI, Data Science, and Software Engineering**
+
+- **Artificial Intelligence (AI)** is the broader discipline focused on building systems that simulate human-like intelligence.  
+(*AI aims to make machines capable of reasoning, decision-making, and problem-solving.*)
+- **Machine Learning (ML)** is a subset of Artificial Intelligence.  
+(*ML is one method within AI that enables systems to learn patterns from data instead of being explicitly programmed.*)
+- Not all AI systems rely on machine learning.  
+(*Some AI approaches use rule-based systems, search algorithms, or symbolic reasoning without learning from data.*)
+- Machine Learning enables **data-driven intelligence** within AI systems.  
+(*Instead of manually coding rules, systems learn patterns automatically from examples.*)
+- **Data Science** is an interdisciplinary field focused on extracting insights, patterns, and knowledge from data.  
+(*It combines statistics, programming, and domain expertise to analyze and interpret data effectively.*)
+- Machine Learning is a **core component of Data Science**.  
+(*Data scientists use ML algorithms to build predictive and analytical models.*)
+- Data Science extends beyond machine learning.  
+(*It also includes data cleaning, visualization, exploratory analysis, and communicating insights to stakeholders.*)
+- Machine Learning primarily focuses on **building predictive and decision-making models**.  
+(*Its main objective is to automate predictions based on historical data.*)
+- **Software Engineering** concentrates on designing, developing, testing, and maintaining scalable software systems.  
+(*It ensures applications are reliable, efficient, and maintainable.*)
+- Machine learning models must be **integrated into software systems** to deliver real-world value.  
+(*A trained model becomes useful only when deployed inside an application or service.*)
+- **ML Engineers** combine machine learning expertise with software engineering principles.  
+(*They ensure models are production-ready, scalable, efficient, and robust.*)
+- AI defines the vision of intelligent systems, Data Science extracts insights from data, and Machine Learning builds predictive models.  
+(*AI is the broad goal, Data Science interprets data, and ML automates predictions.*)
+- Machine Learning acts as a **bridge between statistical theory and practical AI systems**.  
+(*It converts mathematical concepts into working intelligent applications.*)
+- Understanding this relationship helps clarify **career specialization paths**.  
+(*Those interested in modeling may focus on ML, those interested in analytics and storytelling may choose Data Science, and those passionate about system design may pursue Software Engineering.*)
